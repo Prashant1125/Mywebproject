@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* https://testapi-qsha.onrender.com/ */
+/* <img src="https://picsum.photos/id/89/600/300" alt="author" /> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 500 100%/1.4 system-ui;
+  background-color: #ccc;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0rem;
+  padding: 1rem;
+}
+
+
+
+/* $rotation-range: 2.7558661261321217;
+$min-rotation: -$rotation-range;
+$random-rotation: random() * (4) + $min-rotation; */
+
+.card {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 2rem;
+  background: #f8f3e8;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  /* transform:rotate(-1.6558661261321217deg) */
+/* //   $min-rotation: -$rotation-range;
+//   $max-rotation: $rotation-range;
+
+  // Random rotation within the range
+//   $random-rotation: random() * (4) + $min-rotation;
+
+  transform: rotate($random-rotation + deg); */
+}
+
+.card > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 600/300;
+}
+
+.card > h2 {
+  margin-top: 1rem;
+  font-family: "Kalam", cursive;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #4a4a7d;
+  text-align: center;
+}
+
+.card > p {
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+  color: #5e5e89;
+  text-align: center;
+}
+
+
+.bn31 {
+  background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #00a84f;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
+}
+
+.bn31:hover {
+  color: #fff;
+}
+
+.bn31 .bn31span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn31:hover .bn31span {
+  background: transparent;
+}
+button.love-color {
+    background-color: #ff0000; /* Replace with the desired color for 'love' */
+    color: #ffffff; /* Replace with the desired text color */
+  }
+
+  button.motivation-color {
+    background-color: #00ff00; /* Replace with the desired color for 'Motivation' */
+    color: #000000; /* Replace with the desired text color */
+  }
+
+  button.philosophy-color {
+    background-color: #0000ff; /* Replace with the desired color for 'Philosophy' */
+    color: #ffffff; /* Replace with the desired text color */
+  }
+
+  button.hate-color {
+    background-color: #ff00ff; /* Replace with the desired color for 'hate' */
+    color: #ffffff; /* Replace with the desired text color */
+  }
+
+  button.reset-color {
+    background-color: #cccccc; /* Replace with the desired color for 'reset' */
+    color: #000000; /* Replace with the desired text color */
+  }  
+
+button {
+  width: 100px;
+  border: none;
+  background: none;
+  outline: none;
+  /* Add your own custom styles here */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 80px;
+    background-color: #9b9bdd;
+    align-content: center;
+}
+
+.Loading{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2%;
+  padding-top: 1%;
+  font-size: 40px;
+  color: red;
+  align-items: center;
+}
